@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: roboto;
+  background-color: #fafafa;
+}
+.pagina {
+  width: 935px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 54px;
+  background-color: #fafafa;
+}
+.barraTopo {
+  height: 54px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid #dbdbdb;
+  background-color: #fafafa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 999999;
+}
+.topoEsquerda {
+  display: flex;
+}
+.topoEsquerda :nth-child(4) {
+  display: none;
+}
+.barraTopo p {
+  height: 28px;
+  width: 215px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  color: #979797;
+}
+.barraTopo img {
+  width: 103px;
+  height: 29px;
+}
+.barraTopo ion-icon {
+  font-size: 24px;
+}
+.bordaVertical {
+  background-color: #dbdbdb;
+  height: 24px;
+  width: 1px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.pagina {
+  display: flex;
+}
+.conteudoEsquerda {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixaStories {
+  width: 614px;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-top: 34px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.caixaStories ion-icon {
+  position: absolute;
+  font-size: 30px;
+  right: 0;
+  color: white;
+}
+.storie {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 25px;
+  justify-content: center;
+}
+.borda {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.imgStorie {
+  width: 56px;
+  height: 56px;
+  z-index: 0;
+}
+.storie h3 {
+  padding-top: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post {
+  width: 614px;
+  height: 749px;
+  margin-top: 24px;
+  margin-bottom: 60px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.post video {
+  width: 612px;
+  height: 612px;
+}
+.topoPost {
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topoPost img {
+  margin-right: 10px;
+}
+.topoPost div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.topoPost ion-icon {
+  margin-right: 15px;
+}
+.botPost {
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botPost ion-icon {
+  font-size: 22px;
+}
+.iconesPost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 18px;
+}
+.botPost img {
+  width: 20px;
+  height: 20px;
+}
+.fotoPost {
+  width: 100%;
+  height: 612px;
+}
+.iconePost {
+  width: 32px;
+  height: 32px;
+}
+.curtidas {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.curtidas img {
+  margin-right: 10px;
+}
+.sidebar {
+  width: 293px;
+  margin-top: 34px;
+  margin-left: 23px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 99;
+  background-color: #fafafa;
+}
+.conteudoSidebar {
+  width: 293px;
+  position: fixed;
+}
+.sidebar img {
+  width: 56px;
+  height: 56px;
+}
+.sidebar h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sideTopo {
+  display: flex;
+  align-items: center;
+  height: 85px;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.sideTopo div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.sideTopo h4 {
+  color: #8e8e8e;
+  font-weight: 400px;
+  font-size: 14px;
+}
+.sugestoes {
+  display: flex;
+  flex-direction: column;
+}
+.sugestao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.sugestao h3 {
+  margin-bottom: 6px;
+}
+.sugestao img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+.sugestao p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.sugestao h4 {
+  font-size: 12px;
+  color: #139ef2;
+  font-weight: 500;
+}
+.sugestao h5 {
+  font-size: 12px;
+  color: #262626;
+  font-weight: 500;
+}
+.esquerdaSugestao {
+  display: flex;
+}
+.testeIndex {
+  height: 105px;
+  width: 23px;
+  margin-top: 38px;
+  background-color: #fafafa;
+  z-index: 2;
+  position: absolute;
+  top: -40px;
+  left: -23px;
+}
+.botSide {
+  align-items: center;
+}
+.botSide p {
+  font-size: 11px;
+  color: #c7c7c7;
+  margin-top: 20px;
+}
+.barraBot {
+  display: none;
+}
+.post h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+strong {
+  font-weight: bold;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+  .conteudoEsquerda {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 614px) {
+  body {
+    width: 100%;
+  }
+  .pagina {
+    width: 100%;
+  }
+  .conteudoEsquerda {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .posts {
+    width: 100%;
+  }
+  .posts :nth-child(1) {
+    margin-top: 0;
+  }
+  .post {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-left: none;
+    border-right: none;
+    margin-top: 24px;
+    box-sizing: border-box;
+  }
+  .icones {
+    display: none;
+  }
+  .fotoPost {
+    width: 100%;
+  }
+  .barraTopo p {
+    display: none;
+  }
+  .caixaStories {
+    width: 100%;
+    border: none;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    margin-top: 0;
+  }
+  .caixaStories ion-icon {
+    display: none;
+    z-index: 9999;
+  }
+  .barraBot {
+    width: 100%;
+    height: 54px;
+    background-color: #dbdbdb;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .barraBot ion-icon {
+    font-size: 25px;
+  }
+  .topoEsquerda :nth-child(2) {
+    display: none;
+  }
+  .topoEsquerda :nth-child(4) {
+    display: initial;
+  }
+  .topoEsquerda {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .topoEsquerda ion-icon {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .post video {
+    width: 100%;
+    height: 612px;
+  }
+}
