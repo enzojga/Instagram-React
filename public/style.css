@@ -324,7 +324,9 @@ body {
     width: 100%;
   }
 }
-
+.curtido .acoes :nth-child(1) :nth-child(1){
+  color: red;
+}
 @media (max-width: 614px) {
   .corpo {
     margin-top: 0;
