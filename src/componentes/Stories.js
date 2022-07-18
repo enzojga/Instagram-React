@@ -27,7 +27,7 @@ function Stories(){
     
     return (  
         <div class="stories">
-            {objStores.map(storie =>(Storie(storie)))}
+            {objStores.map(storie =>(<Storie img = {storie.img} usuario = {storie.usuario}/>))}
             <div class="setinha">
                 <ion-icon name="chevron-forward-circle"></ion-icon>
             </div>
